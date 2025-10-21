@@ -5,12 +5,12 @@ const autoclickerUpgrade = document.getElementById("autoclickerUpgrade");
 const pickUpgrade = document.getElementById("pickUpgrade");
 
 let numberOfStones = 0;
-let stoneincreaseNumber = 2;
-let cookieAutoclickerincreaseNumber = 0;
+let stoneincreaseNumber = 1;
+let cookieAutoclickerincreaseNumber = 1;
 let autoclickerInterval;
-let clickUpgradePrice = 50;
-let autoclickerUpgradePrice = 100;
-let pickUpgradePrice = 200;
+let clickUpgradePrice = 55;
+let autoclickerUpgradePrice = 110;
+let pickUpgradePrice = 220;
 let pickUpgradeLevel = 1;
 
 stone.onclick = () => {
